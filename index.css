@@ -51,7 +51,7 @@ width:15%;
     height:50%;
     width:50%;
 }
-.drop{
+#wakeup{
 height:40px;
 width:230px;
 border:20px;
@@ -59,6 +59,30 @@ border-radius: 10%;
 font-size: 15px;
 color:purple;
 }
+#lunch{
+    height:40px;
+    width:230px;
+    border:20px;
+    border-radius: 10%;
+    font-size: 15px;
+    color:purple;
+    }
+    #nap{
+        height:40px;
+        width:230px;
+        border:20px;
+        border-radius: 10%;
+        font-size: 15px;
+        color:purple;
+        }
+        #night{
+            height:40px;
+            width:230px;
+            border:20px;
+            border-radius: 10%;
+            font-size: 15px;
+            color:purple;
+            }        
 .wake-up{
     background-color:#5F0089;
     font-size: 30px;
@@ -73,10 +97,11 @@ color:purple;
     font-weight: 1000;
 
 }
-.up{
+#up{
     text-align: center;
     margin-top: 20px;
     color: white;
+    font-size: 25px;
 
 }
 .party{
@@ -133,7 +158,7 @@ color:purple;
     width:300px;
     border: 1px solid rgb(235, 163, 235);
     border-radius: 10px;
-    background:blue 0% 0% no-repeat padding-box;
+    background: plum 0% 0% no-repeat padding-box;
     opacity: 0.20;
 }
 .none{
@@ -166,13 +191,21 @@ color:purple;
     /* background-image: url(./images/AM_svg.svg); */
 }
 .nn{
-    background-color:#dbb5eb;
+    background-color:#F6E2FF;
     background-repeat: no-repeat;
     text-align: center;
     margin-top: 10px;
-    height:90px;
+    height:70px;
     border-radius: 9px;
     width: 70px;
+    font-size: 30px;
+    color: purple;
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.cl1{
+    color: purple;
+    position: absolute;
 }
 .mm{
     text-align: center;
@@ -185,12 +218,17 @@ color:purple;
 }
 .am{
     position: relative;
-    top: 5px;
-    left: 10px;
-    height: 100px;
-    width: 100px;
+    top: 10px;
+    left: 1px;
+    height: 65px;
+    width: 60px;
     color: white;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    padding: 9px;
+    font-size: 40px;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    background-image: url('./AM_svg.svg') ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
 }
 .am1{
     width: 100%;
@@ -216,25 +254,51 @@ color:purple;
     font-size: 25px;
     font-family: cursive;
     color:#CB52F8;
-    padding: 10px 10px;
+    padding: 8px;
 }
-.pump1{
+#mesg{
     margin:20px 35px;
-    font-size: 25px;
+    font-size: 26px;
+    font-weight: bold;
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
 }
 
-.pump2{
-    height:400px;
-    width:560px;
+#changeImage{
+    height:350px;
+    width:530px;
     position: relative;
     top:-700px;
     left:650px;
     border-radius: 9px;
     background-color: white;
+    background-image: url(./Component\ 30\ –\ 1.svg);
 }
 .pump3{
     height:350px;
     width:570px;
+}
+
+.cl1{
+    position: absolute;
+    color: purple;
+    bottom: 500px;
+    left: 750px;
+    font-size: 27px;
+}
+.cl2{
+    position: absolute;
+    color: purple;
+    bottom: 500px;
+    left: 895px;
+    font-size: 27px;
+}
+.cl3{
+    position: absolute;
+    color: purple;
+    bottom: 500px;
+    left: 1045px;
+    font-size: 27px;
 }
 
 @media (max-width:1184px){
